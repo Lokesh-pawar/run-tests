@@ -1,18 +1,25 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Logs
+logs
+*.log
 
-# Other files and folders
-.settings/
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# dotenv environment variables file
+.env
+.env.test
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea
+.vscode
+*.code-workspace
